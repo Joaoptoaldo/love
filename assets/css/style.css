@@ -42,7 +42,7 @@ body {
     color: #000000;   
     pointer-events: none;
     font-family: 'Dancing Script', cursive; /* fonte nova */
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* sombra leve opcional */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); 
 }
 #clickHere {
     position: absolute;
@@ -53,13 +53,13 @@ body {
 }
 
 #clickHere {
-    position: fixed;      /* fixa no rodapé */
-    bottom: 20px;         /* distância do rodapé */
-    width: 100%;          /* centralizado horizontalmente */
+    position: fixed;      
+    bottom: 70px;        
+    width: 100%;          
     text-align: center;
     font-size: 1.5em;
     color: #333;
-    pointer-events: none; /* opcional: para não bloquear cliques */
+    pointer-events: none; 
 }
 
   p#clickHere {
